@@ -1,4 +1,4 @@
-# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Podstawy #02
+# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Rozszerzenie #02
 
 > :loudspeaker: Jeśli chciałbyś więcej tego typu zadań to zapraszam do :moneybag: [wsparcia mojego konta](https://github.com/sponsors/devmentor-pl)!
 
