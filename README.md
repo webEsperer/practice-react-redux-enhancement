@@ -1,4 +1,4 @@
-# [![](assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Podstawy
+# [![](assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Rozszerzenie
 
 Zrozumienie Redux-a w stopniu ponad podstawowym zdecydowanie ułatwia pracę z nim oraz umożliwia korzystanie z jego pełnych możliwości przy pomocy rozszerzeń.
 
