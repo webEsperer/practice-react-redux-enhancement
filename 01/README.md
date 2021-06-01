@@ -1,8 +1,8 @@
-# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Rozszerzenie #01
-
-> :loudspeaker: Jeśli chciałbyś więcej tego typu zadań to zapraszam do :moneybag: [wsparcia mojego konta](https://github.com/sponsors/devmentor-pl)!
+> :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s2e07-react-redux-enhancement` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
+
+# `#01`  React i Redux: Rozszerzenie
 
 Twoim zadaniem będzie refaktoryzacja komponentu `<Timer>`, w taki sposób, aby rozdzielić prezentację od logiki. Oznacza to, że powinieneś przekazać zadządzanie `state` kontenerowi tj. `<TimerContainer>`, natomiast samą formę prezentacyjną pozostawić w `<Timer>`, a dane przekazywać przez `props`.
 
@@ -10,4 +10,4 @@ Zanim jednak to zrobisz napraw błędy związane z prezentowaniem informacji. Ob
 
 &nbsp;
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl)
+> :arrow_left: ~~*poprzednie zadanie*~~ | [*następne zadanie*](./../02) :arrow_right:
