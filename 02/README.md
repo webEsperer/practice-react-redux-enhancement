@@ -1,8 +1,8 @@
-# [![](../assets/img/logo-readme2.jpg)](https://devmentor.pl) &nbsp; React i Redux: Rozszerzenie #02
-
-> :loudspeaker: Jeśli chciałbyś więcej tego typu zadań to zapraszam do :moneybag: [wsparcia mojego konta](https://github.com/sponsors/devmentor-pl)!
+> :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s2e07-react-redux-enhancement` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/)). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
+
+# `#02`  React i Redux: Rozszerzenie
 
 Tym razem Twoim zadaniem jest utworzenie HOC-a (ang. Higher-Order Component) o nazwie `withPopup`, który pozwoli opakować komponent w popup. To co przekażemy do naszego HOC-a ma zostać wyświetlone w formie wyskakującego okienka. U nas będzie to komponent `<Welcome>`.
 
@@ -12,4 +12,4 @@ Pamiętaj, aby umożliwić użytkownikowi zamknięcie popup-a np. poprzez guzik 
 
 &nbsp;
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl)
+> :arrow_left: [*poprzednie zadanie*](./../01) | [*następne zadanie*](./../03) :arrow_right:
