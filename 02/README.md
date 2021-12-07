@@ -4,11 +4,11 @@
 
 # `#02`  React i Redux: Rozszerzenie
 
-Tym razem Twoim zadaniem jest utworzenie HOC-a (ang. Higher-Order Component) o nazwie `withPopup`, który pozwoli opakować komponent w popup. To co przekażemy do naszego HOC-a ma zostać wyświetlone w formie wyskakującego okienka. U nas będzie to komponent `<Welcome>`.
+Tym razem Twoim zadaniem jest utworzenie HOC-a (ang. Higher-Order Component) o nazwie `withPopup`, który pozwoli opakować komponent w pop-up. To, co przekażemy do naszego HOC-a, ma zostać wyświetlone w formie wyskakującego okienka. U nas będzie to komponent `<Welcome>`.
 
-Idealnie gdyby można było wpławać na jego wygląd np. kolor tła, przeźroczystać itp.
+Byłoby idealnie, gdyby można wpływać na jego wygląd, np. kolor tła, przezroczystość itp.
 
-Pamiętaj, aby umożliwić użytkownikowi zamknięcie popup-a np. poprzez guzik X. Po jego kliknięciu okienko znika, a jego zawartość wyświetla się w docelowym miejscu - u nas to treść poniżej nagłówka `<h2>`.
+Pamiętaj, aby umożliwić użytkownikowi zamknięcie pop-upa np. poprzez guzik X. Po jego kliknięciu okienko ma zniknąć, a jego zawartość ma się wyświetlić w docelowym miejscu – u nas to treść poniżej nagłówka `<h2>`.
 
 &nbsp;
 
