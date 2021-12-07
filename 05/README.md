@@ -5,7 +5,7 @@
 # `#05`  React i Redux: Rozszerzenie
 
 
-Najwyższy czas połączyć, oba dostępne rozwiązania dot. API w jeden Magazyn. Użyj do tego znanego Ci `combineReducers()`, aby oba rozwiązania mogły współdziałać. Pamiętaj, aby dostosować oba komponenty tj. `<GitHub>` oraz `<StackOverflow>` do wprowadzonych zmian.
+Najwyższy czas połączyć rozwiązania dotyczące API w jeden Magazyn. Użyj do tego znanego Ci `combineReducers()`, aby oba rozwiązania mogły współdziałać. Dostosuj komponenty, tj. `<GitHub>` oraz `<StackOverflow>`, do wprowadzonych zmian.
 
 &nbsp;
 
