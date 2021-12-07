@@ -4,12 +4,12 @@
 
 # `#04`  React i Redux: Rozszerzenie
 
-Podobnie jak w poprzednim przypadku Twoim zadaniem będzie [pobieranie danych z API](https://api.stackexchange.com/docs/similar). Tym razem będziemy przeszukiwać zawartość serwisu [stackoverflow](https://stackoverflow.com/). Również w tym przypadku będziemy chcieli sortować dane względem daty publikacji oraz punktów reputacji danego użytkownika.
+Tym razem będziemy przeszukiwać zawartość serwisu [stackoverflow](https://stackoverflow.com/) – ponownie przy pomocy [API](https://api.stackexchange.com/docs/similar). Dane posortujemy względem daty publikacji oraz punktów reputacji danego użytkownika.
 
-Przed przystąpieniem do implementacji zakomentuj rozwiązanie z poprzedniego zadania i dostosuj konfigurację Redux-a dla tego zadania.
+Przed przystąpieniem do implementacji zakomentuj rozwiązanie z poprzedniego zadania i dostosuj konfigurację Reduxa dla tego zadania.
 
-Całe rozwiązanie oprzyj o podobną strukturę plików jak w zadaniu poprzednim tylko tym razem w katalogu `./src/modules/stackoverflow`. 
+Całe rozwiązanie umieść w takiej strukturze plików jak w zadaniu poprzednim – tylko tym razem w katalogu `./src/modules/stackoverflow`. 
 
 &nbsp;
 
-> :arrow_left: [*poprzednie zadanie*](./../03) | [*następne zadanie*](./../05) :arrow_right:
+> :arrow_left: [*poprzednie zadanie*](./../03) | [*następne zadanie*](./../05) :arrow_right:*emphasized text*
