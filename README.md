@@ -1,20 +1,19 @@
-
 > :dart: *Chcę mieć absolutną pewność, że **darmowe materiały**, które publikuję, spełniają Twoje oczekiwania. Dlatego oferuję Ci ebooka o wartości 39 PLN: `Jak zostać programistą? SKUTECZNY PRZEWODNIK` w zamian za [wypełnienie ankiety](https://devmentor.pl/ankieta).*
 
 &nbsp;
 
 # React i Redux: Rozszerzenie
 
-Zrozumienie Reduxa w stopniu ponad podstawowym zdecydowanie ułatwia pracę z nim oraz umożliwia korzystanie z jego pełnych możliwości przy pomocy rozszerzeń.
+Zrozumienie Reduxa w stopniu ponadpodstawowym zdecydowanie ułatwia pracę z nim oraz umożliwia korzystanie z jego pełnych możliwości przy pomocy rozszerzeń.
 
-Sprawdź czy Twoja wiedza z tego zakresu jest wystarczająca do rozpoczęcia przygody z Redux na poziomie bardziej zawansowanym. Do tego będziesz potrzebował wiedzy z zakresu:
+Sprawdź, czy Twoja wiedza jest wystarczająca do rozpoczęcia przygody z Reduxem na poziomie bardziej zawansowanym. Do tego będziesz potrzebował umiejętności z zakresu:
 
 * Presentational oraz Container Components
 * HOC (ang. Higher-Order Component) 
 * Redux Thunk
 * combineReducers()
 
-Podstawowa konfiguracja dla Webpacka jest już przygotowana. Wystarczy zainstalować zależności wykorzystując komendę `npm i` oraz uruchomisz Webpack-a przy pomocy: `npm start`. Całość powinna zostać działać pod adresem `http://localhost:8080`.
+Podstawowa konfiguracja dla webpacka jest już przygotowana. Wystarczy zainstalować zależności komendą `npm i` i uruchomić webpack: `npm start`. Całość powinna działać pod adresem `http://localhost:8080`.
 
 &nbsp;
 
