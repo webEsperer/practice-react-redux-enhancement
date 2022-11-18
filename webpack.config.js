@@ -2,8 +2,6 @@ const path = require('path');
 // importuję bibliotękę [path] z [node.js]
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 // importuję plugin [html-webpack-plugin]
-const CssWebpackPlugin = require('mini-css-extract-plugin');
-// importuję plugin [mini-css-extract-plugin]
 
 module.exports = function(env = {}) {
 
@@ -39,58 +37,7 @@ module.exports = function(env = {}) {
                     use: 'babel-loader',
                     // określam jaki [loader]
                     // ma być wykorzystany
-                },
-                {
-                    test: /\.css$/,
-                    // tylko pliki z rozszerzeniem .css
-                    exclude: /node_modules/,
-                    // wykluczam pliki zwierającą 
-                    // wpisany ciąg znaków w ścieżce
-                    use: [
-                        isProd ? CssWebpackPlugin.loader : 'style-loader', 
-                        //'css-loader'
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                sourceMap: isProd ? false : true,
-                                // ustawiam identyfikację kodu źródłowego
-                            },
-                        },
-                    ],
-                    // określam kolejność wykorzystanych 
-                    // loader-ów tj. od lewej do prawej (lub o dołu do góry)
-                },
-                {
-                    test: /\.scss$/,
-                    // tylko pliki z rozszerzeniem .scss
-                    use: [
-                        isProd ? CssWebpackPlugin.loader : 'style-loader', 
-                        //'css-loader', 
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                sourceMap: isProd ? false : true,
-                                // ustawiam identyfikację kodu źródłowego
-                            },
-                        },
-                        // 'sass-loader'
-                        {
-                            loader: 'sass-loader',
-                            options: {
-                                sourceMap: isProd ? false : true,
-                                // ustawiam identyfikację kodu źródłowego
-                                sassOptions: {
-                                    outputStyle: isProd ? 'compressed' : 'expanded',
-                                    // ustawiam sposób zapisu kodu CSS
-                                },
-                            },
-                            
-                        }
-                    ],
-                    // określam kolejność wykorzystanych 
-                    // loader-ów tj. od lewej do prawej
-
-                },
+                },           
                 {
                     test: /\.(png|svg|jpg|gif)$/,
                     // dodaję rozszerzenia obrazów
@@ -117,10 +64,6 @@ module.exports = function(env = {}) {
                 // wskazuje plik źródłowy
                 filename: 'index.html'
                 // określan nazwę dla pliku
-            }),
-            new CssWebpackPlugin({
-                filename: '[name].[contenthash].css',
-                // określam nazwę pliku css
             })
         ]
     }
