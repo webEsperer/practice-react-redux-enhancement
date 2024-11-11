@@ -3,12 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import { getRepos, setLoginAction, setPhraseAction } from "./github.actions";
 
 const GitHub = () => {
-  const { login, phrase, repos } = useSelector((state) => state);
+  const { login, phrase, repos } = useSelector((state) => state.github);
   const dispatch = useDispatch();
 
   function handleLoginChange(e) {
     dispatch(setLoginAction(e.target.value));
-    dispatch(getRepos());
+    dispatch(getRepos(e.target.value));
   }
   return (
     <section>

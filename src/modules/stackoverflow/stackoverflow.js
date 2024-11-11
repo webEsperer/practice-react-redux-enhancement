@@ -8,16 +8,13 @@ import {
 } from "./stackoverflow.actions";
 
 const StackOverFlow = () => {
-  const { sort, phrase, posts } = useSelector((state) => state);
+  const { sort, phrase, posts } = useSelector((state) => state.stackoverflow);
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getPosts(phrase, sort));
   }, [phrase, sort]);
-  // function handleLoginChange(e) {
-  //   dispatch(setLoginAction(e.target.value));
-  //   dispatch(getRepos());
-  // }
+
   return (
     <section>
       <form>

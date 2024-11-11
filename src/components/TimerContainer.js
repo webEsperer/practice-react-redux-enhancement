@@ -2,7 +2,7 @@ import React from "react";
 import Timer from "./Timer";
 class TimerContainer extends React.Component {
   state = {
-    time: 3599,
+    time: 3590,
   };
 
   getHours() {
